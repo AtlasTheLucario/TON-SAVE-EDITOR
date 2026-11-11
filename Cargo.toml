@@ -1,0 +1,14 @@
+[package]
+name = "ton-save-editor"
+version = "0.1.0"
+edition = "2021"
+description = "A native Rust save editor for Terrors of Nowhere"
+license = "MIT"
+
+[dependencies]
+eframe = "0.31"
+egui = "0.31"
+rfd = "0.15"
+anyhow = "1"
+chrono = { version = "0.4", features = ["clock"] }
+dirs = "6"
